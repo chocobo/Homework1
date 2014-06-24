@@ -1,5 +1,4 @@
-Homework1 - facebookDemo
-=========
+# Homework1 - facebookDemo
 
 ## Hours:
 5-6 I think. At least 70% of that was on TTTAttributedLabel.
@@ -12,3 +11,8 @@ Homework1 - facebookDemo
   * Add UILabels with attributed text (instead of plain text), so that you can bold individual words.
   * Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
   * Optional: Move the textfield when the keyboard appears.
+
+
+
+![animated gif](https://raw.githubusercontent.com/chocobo/Homework1/master/facebookDemo.gif)
+
