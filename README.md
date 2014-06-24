@@ -1,7 +1,5 @@
-Homework1
+Homework1 - facebookDemo
 =========
-
-facebookDemo
 
 ## Hours:
 5-6 I think. At least 70% of that was on TTTAttributedLabel.
