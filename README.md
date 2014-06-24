@@ -3,8 +3,10 @@ Homework1
 
 facebookDemo
 
-Hours: 5-6 I think. At least 70% of that was on TTTAttributedLabel.
-Completed:
+## Hours:
+5-6 I think. At least 70% of that was on TTTAttributedLabel.
+
+## Completed:
   * Add a container view and modify properties: backgroundColor, cornerRadius, font, textColor, shadowOffset.
   * Add buttons with different images for default and highlighted.
   * Add UIImageViews and choose the right mode: aspect fill, aspect fit, etc.
