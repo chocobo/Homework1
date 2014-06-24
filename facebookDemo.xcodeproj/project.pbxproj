@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7743A0C67B414DE5B32D561C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB89D9CC23F44869319EFBC /* libPods.a */; };
 		87E1271B19572A9F00A14D5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E1271A19572A9F00A14D5F /* Foundation.framework */; };
 		87E1271D19572A9F00A14D5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E1271C19572A9F00A14D5F /* CoreGraphics.framework */; };
 		87E1271F19572A9F00A14D5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E1271E19572A9F00A14D5F /* UIKit.framework */; };
@@ -19,6 +20,8 @@
 		87E1273619572A9F00A14D5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E1271E19572A9F00A14D5F /* UIKit.framework */; };
 		87E1273E19572A9F00A14D5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E1273C19572A9F00A14D5F /* InfoPlist.strings */; };
 		87E1274019572A9F00A14D5F /* facebookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E1273F19572A9F00A14D5F /* facebookDemoTests.m */; };
+		87E1274C19572B4900A14D5F /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E1274A19572B4900A14D5F /* TimelineViewController.m */; };
+		87E1274D19572B4900A14D5F /* TimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E1274B19572B4900A14D5F /* TimelineViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F15449EFF2C424E83E8C8B4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		87E1271719572A9F00A14D5F /* facebookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E1271A19572A9F00A14D5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		87E1271C19572A9F00A14D5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +52,10 @@
 		87E1273B19572A9F00A14D5F /* facebookDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "facebookDemoTests-Info.plist"; sourceTree = "<group>"; };
 		87E1273D19572A9F00A14D5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87E1273F19572A9F00A14D5F /* facebookDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebookDemoTests.m; sourceTree = "<group>"; };
+		87E1274919572B4900A14D5F /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		87E1274A19572B4900A14D5F /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		87E1274B19572B4900A14D5F /* TimelineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineViewController.xib; sourceTree = "<group>"; };
+		DBB89D9CC23F44869319EFBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 				87E1271D19572A9F00A14D5F /* CoreGraphics.framework in Frameworks */,
 				87E1271F19572A9F00A14D5F /* UIKit.framework in Frameworks */,
 				87E1271B19572A9F00A14D5F /* Foundation.framework in Frameworks */,
+				7743A0C67B414DE5B32D561C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +86,14 @@
 		87E1270E19572A9F00A14D5F = {
 			isa = PBXGroup;
 			children = (
+				87E1274919572B4900A14D5F /* TimelineViewController.h */,
+				87E1274A19572B4900A14D5F /* TimelineViewController.m */,
+				87E1274B19572B4900A14D5F /* TimelineViewController.xib */,
 				87E1272019572A9F00A14D5F /* facebookDemo */,
 				87E1273919572A9F00A14D5F /* facebookDemoTests */,
 				87E1271919572A9F00A14D5F /* Frameworks */,
 				87E1271819572A9F00A14D5F /* Products */,
+				4F15449EFF2C424E83E8C8B4 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +113,7 @@
 				87E1271C19572A9F00A14D5F /* CoreGraphics.framework */,
 				87E1271E19572A9F00A14D5F /* UIKit.framework */,
 				87E1273319572A9F00A14D5F /* XCTest.framework */,
+				DBB89D9CC23F44869319EFBC /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87E1274319572A9F00A14D5F /* Build configuration list for PBXNativeTarget "facebookDemo" */;
 			buildPhases = (
+				E9965F42069144ADAE1A5A0C /* Check Pods Manifest.lock */,
 				87E1271319572A9F00A14D5F /* Sources */,
 				87E1271419572A9F00A14D5F /* Frameworks */,
 				87E1271519572A9F00A14D5F /* Resources */,
+				9D4EAFA9BFB84CE0811F282D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E1274D19572B4900A14D5F /* TimelineViewController.xib in Resources */,
 				87E1272519572A9F00A14D5F /* InfoPlist.strings in Resources */,
 				87E1272D19572A9F00A14D5F /* Images.xcassets in Resources */,
 			);
@@ -234,6 +251,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D4EAFA9BFB84CE0811F282D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9965F42069144ADAE1A5A0C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87E1271319572A9F00A14D5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -241,6 +291,7 @@
 			files = (
 				87E1272B19572A9F00A14D5F /* AppDelegate.m in Sources */,
 				87E1272719572A9F00A14D5F /* main.m in Sources */,
+				87E1274C19572B4900A14D5F /* TimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +405,7 @@
 		};
 		87E1274419572A9F00A14D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F15449EFF2C424E83E8C8B4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +419,7 @@
 		};
 		87E1274519572A9F00A14D5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F15449EFF2C424E83E8C8B4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +490,7 @@
 				87E1274519572A9F00A14D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87E1274619572A9F00A14D5F /* Build configuration list for PBXNativeTarget "facebookDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +499,7 @@
 				87E1274819572A9F00A14D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
